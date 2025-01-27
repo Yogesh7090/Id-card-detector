@@ -1,0 +1,22 @@
+/* CSS styles for the table */
+table {
+    width: 140%; /* Set the width of the table */
+    margin-left: 20px auto; /* Center the table horizontally with margin */
+    border-collapse: collapse; /* Collapse borders */
+    font-family: Arial, sans-serif; /* Font family */
+}
+
+th, td {
+    border: 3px solid black; /* Border style */
+    text-align: center; /* Center align text */
+    padding: 10px; /* Padding inside cells */
+}
+
+th {
+    background-color: #f2f2f2; /* Background color for header cells */
+    font-weight: bold; /* Bold font for headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
